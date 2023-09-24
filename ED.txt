@@ -1,0 +1,1142 @@
+Project Content: 
+•	1 floor
+•	1 Kitchen
+•	2 rooms
+Project overview: It is 3d project and basically most of it will be outer designed. In which realistic view will be given and renderings and automation will be used.
+Description:
+It is a single story house. It consists of two rooms, 1 kitchen and there is a roof top.
+Now we will move towards Floor planning.
+
+Measurements:
+                                All measurements are in centimeters, and the measurements are taken according to online project. And onward I briefly add snips of measurements also
+Floor Planning in 2D:
+Floor planning is in 2D workspace and mostly components used are
+•	Line, polyline, rectangle, break, array, trim, modify, dimensions, offshoot, fillet, move, copy, snap grid, dynamic inputs etc.
+   
+Now we use command of lines, and offshoot and dimensions to make it
+
+
+
+
+
+
+
+
+COMMANDS :
+Command: _line
+Specify first point:
+Specify next point or [Undo]:  <Ortho on> 8600
+Command: _line
+Specify first point:
+Specify next point or [Undo]: 7600
+
+
+offset:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>: T
+*Invalid selection*
+Expects a point or Exit
+ 
+
+
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 3000
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 3700
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 4000
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 3700
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>:
+ 
+
+trim:
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+
+Washroom:
+Command:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 1000
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 150
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 1200
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 150
+Select object to offset or [Exit/Undo] <Exit>:
+ 
+
+Bath:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 1200
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 1250
+Select object to offset or [Exit/Undo] <Exit>: _u
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 2150
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 150
+Select object to offset or [Exit/Undo] <Exit>:
+
+
+trim:
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+ 
+
+Kitchen:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 4000
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 300
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+Command:
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+
+
+Command: _extend
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to extend or shift-select to trim or
+
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+
+ 
+door:
+
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 1000
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+
+
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+ 
+Window:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 900
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 900
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 900
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+Command:
+Command: _extend
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to extend or shift-select to trim or
+ [Boundary edges/Crossing/mOde/Project]:
+
+Command: _trim
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+ 
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: T
+Select object to offset or [Exit/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 700
+Select object to offset or [Exit/Undo] <Exit>:
+Specify through point or [Exit/Multiple/Undo] <Exit>: 700
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+
+Command: _extend
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+
+Select object to extend or shift-select to trim or
+ [Boundary edges/Crossing/mOde/Project]:
+
+
+Command: _extend
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to extend or shift-select to trim or
+ [Boundary edges/Crossing/mOde/Project]:
+]:
+
+
+3D Start:
+ 
+Command: _presspull
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:M
+Select bounded area:
+1 selected, 2 total
+Select bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:3000
+2 extrusion(s) created
+
+
+Command: _solidedit
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _edge
+
+Resuming SOLIDEDIT command.
+Select edges or [Undo/Remove]:
+Select edges or [Undo/Remove]:
+Specify a base point or displacement: 900
+Specify a second point of displacement: 900
+ 
+
+Command: _presspull
+Select object or bounded area:
+Click a face, curve, or inside a bounded area
+Select object or bounded area:
+Click a face, curve, or inside a bounded area
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:M
+Select bounded area:
+Resuming PRESSPULL command.
+Select bounded area:
+Select bounded area:
+ 
+1 loop extracted.
+1 Region created.
+1 selected, 2 total
+Select bounded area:
+Resuming PRESSPULL command.
+Select bounded area:
+1 loop extracted.
+1 Region created.
+1 selected, 3 total
+Select bounded area:
+Resuming PRESSPULL command.
+Select bounded area:
+1 loop extracted.
+1 Region created.
+1 selected, 4 total
+Select bounded area:
+Resuming PRESSPULL command.
+Select bounded area:
+1 loop extracted.
+1 Region created.
+1 selected, 5 total
+Select bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:900
+
+
+Windows
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]: 900
+Specify other corner point or [Area/Dimensions/Rotation]: 1200
+Command: _copy
+Select objects: 1 found
+Select objects: l
+1 found (1 duplicate), 1 total
+Select objects:
+Current settings:  Copy mode = Multiple
+
+
+Command: _presspull
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:300
+1 extrusion(s) created
+
+Command: _move
+Select objects: 1 found
+Select objects: 1 found, 2 total
+
+Command: _presspull
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:300
+1 extrusion(s) created
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:300
+1 extrusion(s) created
+
+
+Command: _presspull
+Select object or bounded area:
+Click a face, curve, or inside a bounded area
+Select object or bounded area:
+Click a face, curve, or inside a bounded area
+Select object or bounded area:
+Click a face, curve, or inside a bounded area
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:M
+Select bounded area:
+1 selected, 2 total
+Select bounded area:
+1 selected, 3 total
+Select bounded area:
+1 selected, 4 total
+
+Command: _union
+Select objects: 1 found
+Select objects: 1 found, 2 total
+
+ 
+Command: _imprint
+Select a 3D solid or surface:
+Select an object to imprint:
+Delete the source object [Yes/No] <N>:
+Select an object to imprint:
+Resuming IMPRINT command.
+Select an object to imprint:
+Delete the source object [Yes/No] <N>:
+Select an object to imprint:
+Resuming IMPRINT command.
+Select an object to imprint:
+Delete the source object [Yes/No] <N>:
+Select an object to imprint:
+
+Command: _solidedit
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _face
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: _color
+Select faces or [Undo/Remove]: 1 face found.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]: 1 face found.
+Select faces or [Undo/Remove/ALL]:
+
+
+PLANIT
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: *Cancel*
+Command:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: 75
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+Command:
+Command:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <75.0000>:
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+Command: PEDIT
+Select polyline or [Multiple]:
+Enter an option [Close/Join/Width/Edit vertex/Fit/Spline/Decurve/Ltype gen/Reverse/Undo]: *Cancel*
+Command:
+Command:
+Command: PEDIT
+Select polyline or [Multiple]: *Cancel*
+Command: _OPEN
+Command: _qsave
+
+Window Lasso  Press Spacebar to cycle options
+Command: _fillet
+Current settings: Mode = TRIM, Radius = 0.0000
+Select first object or [Undo/Polyline/Radius/Trim/Multiple]:
+Select second object or shift-select to apply corner or [Radius]:
+Command: PEDIT
+Select polyline or [Multiple]:
+Enter an option [Close/Join/Width/Edit vertex/Fit/Spline/Decurve/Ltype gen/Reverse/Undo]: C
+Enter an option [Open/Join/Width/Edit vertex/Fit/Spline/Decurve/Ltype gen/Reverse/Undo]:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _COLOR
+New color [Truecolor/COlorbook] : 160
+ 
+Enter name list of layer(s) for color 160 <Plinth>: =Plinth
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command:
+Command:
+Command:
+Command: _pedit
+Enter an option [Open/Join/Width/Edit vertex/Fit/Spline/Decurve/Ltype gen/Reverse/Undo]: *Cancel*
+Command: *Cancel*
+Command:
+Command:
+Command:
+Command:
+Command: _pedit
+Enter an option [Open/Join/Width/Edit vertex/Fit/Spline/Decurve/Ltype gen/Reverse/Undo]: *Cancel*
+Command:
+Command: *Cancel*
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _OFF
+Enter name list of layer(s) to turn off or <select objects>: =0
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _ON
+Enter name list of layer(s) to turn on: =0
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _ON
+Enter name list of layer(s) to turn on: =3D Wall
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Crossing Lasso  Press Spacebar to cycle options
+ 
+Command: _extrude
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+1 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Specify height of extrusion or [Direction/Path/Taper angle/Expression]: *Cancel*
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option  [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _OFF
+Enter name list of layer(s) to turn off or <select objects>: =Plinth
+Really want layer "Plinth" (the CURRENT layer) off? <N> _Yes
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command: _extrude
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+1 found
+_MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Specify height of extrusion or [Direction/Path/Taper angle/Expression]: 600
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+Command:
+LAYER
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]:
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]:
+Invalid window specification.
+Specify opposite corner or [Fence/WPolygon/CPolygon]: Specify opposite corner or [Fence/WPolygon/CPolygon]:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _OFF
+Enter name list of layer(s) to turn off or <select objects>: =0
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _LOCK
+Enter name list of layer(s) to lock or <select objects>: =3D Wall
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command: _u '.-LAYER '.-LAYER
+Command: _presspull
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:900
+1 extrusion(s) created
+Select object or bounded area:
+Command: _solidedit
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _edge
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: _copy
+Select edges or [Undo/Remove]:
+Select edges or [Undo/Remove]:
+Specify a base point or displacement:
+Specify a second point of displacement: 1000
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: C
+Select edges or [Undo/Remove]:
+Select edges or [Undo/Remove]:
+Specify a base point or displacement:
+Specify a second point of displacement: 200
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: C
+Select edges or [Undo/Remove]:
+Select edges or [Undo/Remove]:
+Select edges or [Undo/Remove]:
+Specify a base point or displacement:
+Specify a second point of displacement:  <Ortho on> 200
+Enter an edge editing option [Copy/coLor/Undo/eXit] <eXit>: *Cancel*
+Command: _presspull
+Select object or bounded area:
+Command: _qsave
+Command: _presspull
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:300
+1 extrusion(s) created
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:600
+1 extrusion(s) created
+Select object or bounded area:
+Resuming PRESSPULL command.
+Select object or bounded area:
+Resuming PRESSPULL command.
+Select object or bounded area:
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]:
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]:
+Command: _.erase 3 found
+Command: MAT
+MATBROWSEROPEN
+MATBROWSEROPEN
+Command: _u DROPGEOM GROUP
+Command: _u INTELLIZOOM INTELLIZOOM '.3DPAN2
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]:
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+Command: _.erase 1 found
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _OFF
+Enter name list of layer(s) to turn off or <select objects>: =3D Wall
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _ON
+Enter name list of layer(s) to turn on: =3D Wall
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+Command:
+Command: '_.-LAYER
+Current layer:  "Plinth"
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]: _OFF
+Enter name list of layer(s) to turn off or <select objects>: =0
+Enter an option [?/Make/Set/New/Rename/ON/OFF/Color/Ltype/LWeight/TRansparency/MATerial/Plot/Freeze/Thaw/LOck/Unlock/stAte/Description/rEconcile/Xref]:
+
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Specify other corner point or [Area/Dimensions/Rotation]
+
+
+DOOR
+Command: _trim
+View is not plan to UCS. Command results may not be obvious.
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+Edge is perpendicular to UCS XY plane.
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase/Undo]:
+Edge is perpendicular to UCS XY plane.
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase/Undo]: *Cancel*
+Command:
+Command: _trim
+View is not plan to UCS. Command results may not be obvious.
+Current settings: Projection=UCS, Edge=None, Mode=Quick
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase]:
+Select object to trim or shift-select to extend or
+ [cuTting edges/Crossing/mOde/Project/eRase/Undo]: *Cancel*
+Command:
+Command: _pline
+Specify start point: *Cancel*
+Command:
+Command: _pline
+Specify start point: *Cancel*
+Command:
+Command:
+Command: _pline
+Specify start point:
+Current line-width is 0.0000
+Specify next point or [Arc/Halfwidth/Length/Undo/Width]: 50
+Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: 30
+Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: 20
+Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: 270
+Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]:
+Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]:
+Specify next point or [Arc/Close/Halfwidth/Length/Undo/Width]: *Cancel*
+Automatic save to C:\Users\Abdullah\AppData\Local\Temp\ED project_1_4713_b5ee4250.sv$ ...
+Command: _chamfer
+(TRIM mode) Current chamfer Dist1 = 0.0000, Dist2 = 0.0000
+Select first line or [Undo/Polyline/Distance/Angle/Trim/mEthod/Multiple]:
+Select second line or shift-select to apply corner or [Distance/Angle/Method]: D
+Specify first chamfer distance <0.0000>: 70
+Specify second chamfer distance <70.0000>:
+Select second line or shift-select to apply corner or [Distance/Angle/Method]:
+Command: _ellipse
+Specify axis endpoint of ellipse or [Arc/Center]: _c
+Specify center of ellipse: *Cancel*
+Command: _ellipse
+Specify axis endpoint of ellipse or [Arc/Center]: _c
+Specify center of ellipse:
+Specify endpoint of axis: 20
+Specify distance to other axis or [Rotation]: 20
+Automatic save to C:\Users\Abdullah\AppData\Local\Temp\ED project_1_4713_b5ee4250.sv$ ...
+Command:
+Command: _u ELLIPSE GROUP
+Command:
+Command:
+Command: _circle
+Specify center point for circle or [3P/2P/Ttr (tan tan radius)]:
+Specify radius of circle or [Diameter]: 20
+Command:
+Command:
+Command:
+Command: _circle
+Specify center point for circle or [3P/2P/Ttr (tan tan radius)]: _ttr
+Specify point on object for first tangent of circle:
+Specify point on object for second tangent of circle:
+Specify radius of circle <20.0000>: 15
+Command:
+Command:
+Command: _circle
+Specify center point for circle or [3P/2P/Ttr (tan tan radius)]: _ttr
+Specify point on object for first tangent of circle:
+Specify point on object for second tangent of circle:
+Specify radius of circle <15.0000>:
+
+Command: _sweep
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+Select objects to sweep or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Select objects to sweep or [MOde]: 1 found
+Select objects to sweep or [MOde]: 1 found, 2 total
+Select objects to sweep or [MOde]:
+Select sweep path or [Alignment/Base point/Scale/Twist]:
+Profile curve may not be selected as path curve.
+Select sweep path or [Alignment/Base point/Scale/Twist]: *Cancel*
+Command: *Cancel*
+Command:
+Command:
+Command: _sweep
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+Select objects to sweep or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Select objects to sweep or [MOde]: 1 found
+Select objects to sweep or [MOde]:
+Select sweep path or [Alignment/Base point/Scale/Twist]:
+ 
+QUICKPROPERTIES
+Command: *Cancel*
+Window Lasso  Press Spacebar to cycle options
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Specify other corner point or [Area/Dimensions/Rotation]: *Cancel*
+
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+>>Enter new value for ORTHOMODE <0>:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Command:
+Command: _u INTELLIZOOM GROUP menu item
+Command: _u INTELLIZOOM
+Command: _u RECTANG GROUP
+Command:
+Command:
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]: *Cancel*
+Command:
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Resuming RECTANG command.
+Specify other corner point or [Area/Dimensions/Rotation]:
+Command: _move
+Select objects: 1 found
+Select objects:
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Automatic save to C:\Users\Abdullah\AppData\Local\Temp\ED project_1_17377_ed41334a.sv$ ...
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <75.0000>: 100
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+Command: X
+EXPLODE
+Select objects: 1 found
+Select objects:
+Command:
+Command:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <100.0000>: 200
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>: 1100
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>: 150
+Select object to offset or [Exit/Undo] <Exit>: *Cancel*
+Command:
+Command:
+Command:
+Command: _line
+Specify first point:
+Specify next point or [Undo]:
+Specify next point or [Undo]: *Cancel*
+Command:
+Command:
+Command: _offset
+Current settings: Erase source=No  Layer=Source  OFFSETGAPTYPE=0
+Specify offset distance or [Through/Erase/Layer] <Through>: 50
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>:
+Select object to offset or [Exit/Undo] <Exit>:
+Specify point on side to offset or [Exit/Multiple/Undo] <Exit>:
+
+
+Command: _move
+Select objects: 1 found
+Select objects: 1 found, 2 total
+Select objects:
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>: 5
+Command:
+Command:
+Command: _loft
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]: 1 found
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]: 1 found, 2 total
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]:
+ 2 cross sections selected
+Enter an option [Guides/Path/Cross sections only/Settings] <Cross sections only>: C
+Command:
+Command:
+Command: _loft
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]: 1 found
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]: 1 found, 2 total
+Select cross sections in lofting order or [POint/Join multiple edges/MOde]:
+ 2 cross sections selected
+Enter an option [Guides/Path/Cross sections only/Settings] <Cross sections only>: C
+Command: Specify opposite corner or [Fence/WPolygon/CPolygon]: *Cancel*
+Command:
+Automatic save to C:\Users\Abdullah\AppData\Local\Temp\ED project_1_16897_9d8fcab8.sv$ ...
+Command:
+Command:
+Command:
+Command:
+Command: _join
+Select source object or multiple objects to join at once: Specify opposite corner: 0 found
+Select source object or multiple objects to join at once: Specify opposite corner: 2 found
+Select objects to join:
+2 objects converted to 1 polyline
+Command: _u JOIN GROUP
+Command: _u '.3DPAN2
+Command:
+Command:
+Command:
+Command:
+Command: _join
+Select source object or multiple objects to join at once: 1 found
+Select objects to join: 1 found, 2 total
+Select objects to join: 1 found, 3 total
+Select objects to join: 1 found, 4 total
+Select objects to join:
+4 objects converted to 1 polyline
+Command:
+Command:
+Command: _extrude
+Current wire frame density:  ISOLINES=4, Closed profiles creation mode = Solid
+Select objects to extrude or [MOde]: _MO Closed profiles creation mode [SOlid/SUrface] <Solid>: _SO
+Select objects to extrude or [MOde]: 1 found
+Select objects to extrude or [MOde]: Specify opposite corner: 1 found (1 duplicate), 1 total
+Select objects to extrude or [MOde]:
+Specify height of extrusion or [Direction/Path/Taper angle/Expression] <-600.0000>: 30
+Command:
+Command:
+Command: _presspull
+Select object or bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:M
+Select bounded area:
+1 selected, 2 total
+Select bounded area:
+1 selected, 3 total
+Select bounded area:
+1 selected, 4 total
+Select bounded area:
+Specify extrusion height or [Multiple]:
+Specify extrusion height or [Multiple]:5
+4 extrusion(s) created
+
+Command: _move
+Select objects: 1 found
+Select objects: *Cancel*
+Command:
+Command: _copy
+Select objects: 1 found
+Select objects:
+Current settings:  Copy mode = Multiple
+Specify base point or [Displacement/mOde] <Displacement>:
+Too many objects selected for INTERSECT
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:  <Ortho off>
+Specify second point or [Array/Exit/Undo] <Exit>: *Cancel*
+Command:
+Command:
+Window Lasso  Press Spacebar to cycle options
+Command:
+Command:
+Command:
+Command: _copy
+Select objects: *Cancel*
+Command:
+Command: _copy
+Select objects: 1 found
+Select objects:
+Resuming COPY command.
+Select objects:
+Current settings:  Copy mode = Multiple
+Specify base point or [Displacement/mOde] <Displacement>:
+Too many objects selected for INTERSECT
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Specify second point or [Array/Exit/Undo] <Exit>: *Cancel*
+Command: _move 1 found
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:  <Ortho on>
+Command: P
+PAN
+Command:
+Command:
+Command:
+Command: _move 1 found
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:
+Command: *Cancel*
+Command:
+Command:
+Command:
+Command:
+Command: _move 1 found
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:
+Command: *Cancel*
+Automatic save to C:\Users\Abdullah\AppData\Local\Temp\ED project_1_14969_40ec7ac9.sv$ ...
+Command: _copy
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Current settings:  Copy mode = Multiple
+Specify base point or [Displacement/mOde] <Displacement>:
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Specify second point or [Array/Exit/Undo] <Exit>: *Cancel*
+Command: _copy 1 found
+Current settings:  Copy mode = Multiple
+Specify base point or [Displacement/mOde] <Displacement>:
+Checking 861 intersections...
+Specify second point or [Array] <use first point as displacement>:  <Ortho off>
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Checking 780 intersections...
+Specify second point or [Array/Exit/Undo] <Exit>: *Cancel*
+Command: _move 1 found
+Specify base point or [Displacement] <Displacement>:
+Resuming MOVE command.
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:
+Command:
+Command: _.erase 1 found
+Command: _copy
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Current settings:  Copy mode = Multiple
+Specify base point or [Displacement/mOde] <Displacement>:
+Specify second point or [Array] <use first point as displacement>:  <Ortho on>
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Specify second point or [Array/Exit/Undo] <Exit>: *Cancel*
+Command: _3drotate
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Specify base point:
+** ROTATE **
+Specify rotation angle or [Base point/Copy/Undo/Reference/eXit]:
+Command: _3drotate
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Specify base point:
+** ROTATE **
+Specify rotation angle or [Base point/Copy/Undo/Reference/eXit]:
+Command:
+3DROTATE
+Current positive angle in UCS:  ANGDIR=counterclockwise  ANGBASE=0
+3 found
+Specify base point: *Cancel*
+Command: _move
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Resuming MOVE command.
+Select objects:
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:  <Ortho off>
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Command:  MOVE
+Select objects: *Cancel*
+
+
+Command: _solidedit
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _face
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: _move
+Select faces or [Undo/Remove]: 1 face found.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]: 1 face found.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]: 1 face found.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Resuming SOLIDEDIT command.
+Select faces or [Undo/Remove/ALL]:
+Specify a base point or displacement:
+Specify a second point of displacement: 200
+Solid validation started.
+Solid validation completed.
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: *Cancel*
+Command: _.erase 1 found
+Command: _solidedit
+Solids editing automatic checking:  SOLIDCHECK=1
+Enter a solids editing option [Face/Edge/Body/Undo/eXit] <eXit>: _face
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: _move
+Select faces or [Undo/Remove]: 1 face found.
+Select faces or [Undo/Remove/ALL]:
+Specify a base point or displacement:
+Specify a second point of displacement: 200
+Solid validation started.
+Solid validation completed.
+Enter a face editing option
+[Extrude/Move/Rotate/Offset/Taper/Delete/Copy/coLor/mAterial/Undo/eXit] <eXit>: *Cancel*
+Command: _move
+Select objects: Specify opposite corner: 2 found
+Select objects:
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+ 
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Command:
+
+
+Command: _copy
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Current settings:  Copy mode = Multiple
+Specify base point or [Displacement/mOde] <Displacement>:
+Specify second point or [Array] <use first point as displacement>:  <Ortho off>
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+>>Enter new value for ORTHOMODE <0>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Resuming COPY command.
+Specify second point or [Array] <use first point as displacement>:
+Checking 561 intersections...
+Specify second point or [Array/Exit/Undo] <Exit>: *Cancel*
+Command:
+Command:
+Command: _-VIEW Enter an option [?/Delete/Orthographic/Restore/Save/sEttings/Window]: _TOP
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Specify other corner point or [Area/Dimensions/Rotation]:
+Command: _u '.3DPAN2
+Command: _u RECTANG GROUP
+Command: _rectang
+Specify first corner point or [Chamfer/Elevation/Fillet/Thickness/Width]:
+Specify other corner point or [Area/Dimensions/Rotation]:
+Command:
+Command:
+Command: _region
+Select objects: Specify opposite corner: 1 found
+Select objects:
+1 loop extracted.
+1 Region created.
+Automatic save to C:\Users\Abdullah\AppData\Local\Temp\ED project_1_631_d01d485e.sv$ ...
+Command: _move 1 found
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>: 600
+Command: _u
+Command: _u MOVE GROUP
+Command: _u GROUP menu item menu item menu item menu item
+Command: _.zoom
+Specify corner of window, enter a scale factor (nX or nXP), or
+[All/Center/Dynamic/Extents/Previous/Scale/Window/Object] <real time>: _e
+Command: _move
+Select objects: 1 found
+Select objects:
+Resuming MOVE command.
+Select objects:
+Resuming MOVE command.
+Select objects:
+Resuming MOVE command.
+Select objects:
+Resuming MOVE command.
+Select objects:
+Specify base point or [Displacement] <Displacement>:
+Resuming MOVE command.
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:  <Ortho on> 600
+.QUICKPROPERTIES
+Command: *Cancel*
+Crossing Lasso  Press Spacebar to cycle options
+Command: _.erase 1 found
+Command: _move
+Select objects: 1 found
+Select objects: *Cancel*
+Command: _move
+Select objects: Specify opposite corner: *Cancel*
+0 found
+
+	
+Select objects:
+Resuming MOVE command.
+Select objects: Specify opposite corner: 3 found
+Select objects:
+Resuming MOVE command.
+Select objects:
+Specify base point or [Displacement] <Displacement>:
+Specify second point or <use first point as displacement>:  <Ortho off>
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+Resuming MOVE command.
+Specify second point or <use first point as displacement>:
+    
+
+
+
+
+                                         THE END 
